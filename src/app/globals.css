@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* TAPLY brand colours (Noir & Gold). Use as bg-onyx, text-gold, border-line, etc. */
+@theme inline {
+  --color-onyx: #0b0b0c;
+  --color-charcoal: #1c1b19;
+  --color-gold: #c9a34e;
+  --color-ivory: #ede6d6;
+  --color-stone: #8c857a;
+  --color-muted: #a79f92;
+  --color-line: #3a342a;
+  --color-line-subtle: #2a2722;
+
+  --font-display: var(--font-bodoni);
+  --font-sans: var(--font-manrope);
+}
+
+body {
+  background: var(--color-onyx);
+  color: var(--color-ivory);
+  font-family: var(--font-manrope), system-ui, sans-serif;
+}

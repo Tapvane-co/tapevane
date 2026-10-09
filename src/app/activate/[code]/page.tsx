@@ -16,24 +16,23 @@ async function Activate({ params }: { params: PageProps<"/activate/[code]">["par
       <span className="font-display text-gold uppercase tracking-[0.3em] text-xl">Tapvane</span>
       <h1 className="font-display text-3xl text-ivory">Activate your Tapvane card</h1>
       <p className="text-muted">
-        This card is not linked to a profile yet. Sign up or log in to set up your profile and
-        connect this card.
+        This card isn&apos;t linked to a profile yet. Log in or create an account to set it up.
       </p>
       <p className="rounded-full border border-line px-4 py-1 text-xs tracking-widest text-stone">
         {shown}
       </p>
       <div className="mt-4 flex w-full flex-col gap-3">
         <Link
-          href="/signup"
+          href="/login"
           className="flex min-h-12 items-center justify-center rounded-full bg-gold px-6 font-semibold text-onyx"
         >
-          Sign up
+          Log in
         </Link>
         <Link
-          href="/login"
+          href="/signup"
           className="flex min-h-12 items-center justify-center rounded-full border border-line px-6 text-ivory hover:border-gold"
         >
-          Log in
+          Create account
         </Link>
       </div>
     </main>

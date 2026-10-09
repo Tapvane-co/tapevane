@@ -1,7 +1,7 @@
-# TAPLY — Website Content (Copy)
+# Tapvane — Website Content (Copy)
 
-**Version:** 1.4 · 7 October 2026 (reply and payment-confirmation times added)
-**For:** the TAPLY website described in `PRD.md`
+**Version:** 2.0 · 9 October 2026 (rebranded from TAPLY to Tapvane; domain tapvane.com)
+**For:** the Tapvane website described in `PRD.md`
 
 > **Note to Claude Code:** Use this text exactly on the pages named below. Prices must come from the database (PRD Section 4), not be hard-coded; the prices shown here are for reference. Anything in `[square brackets]` is a placeholder the founder must fill in. Ask before inventing new claims. The WhatsApp number and contact email shown on the Contact, Terms and Privacy pages (and the floating chat button) must be read from the admin Settings, not typed into the page code.
 
@@ -12,7 +12,7 @@
 ### Hero
 **Headline:** Tap. Share. Connect.
 **Subheadline:** The smart business card for Nigerian professionals and businesses. One tap shares your phone number, WhatsApp, socials and more. No app needed.
-**Primary button:** Get your TAPLY card
+**Primary button:** Get your Tapvane card
 **Secondary button:** See a live profile
 
 ### Trust strip (small text under hero)
@@ -25,10 +25,10 @@ Works with most modern phones · Update your details anytime · Delivered nation
 2. **Set up your profile.** Add your phone, WhatsApp, email, socials and photo. This is what people see when they tap.
 3. **Tap to share.** Hold your card near any phone. Your profile opens instantly, and they can save your contact in one tap.
 
-### Why TAPLY
+### Why Tapvane
 **Section title:** One card. Endless first impressions.
 
-- **Never run out of cards.** One TAPLY card replaces hundreds of paper cards.
+- **Never run out of cards.** One Tapvane card replaces hundreds of paper cards.
 - **Always up to date.** Changed your number or job? Update your profile and your card shows the new details. No reprinting.
 - **More than a phone number.** Share WhatsApp, Instagram, LinkedIn, your website and your location, all at once.
 - **Saves straight to contacts.** People tap "Save Contact" and your details land in their phone. Nobody types your number wrong.
@@ -53,17 +53,17 @@ For: small businesses and teams.
 Button: Choose Business
 
 **NFC Tag: ₦10,000**
-A TAPLY sticker for your shop counter, table or phone. Customers tap to see your business, WhatsApp and socials.
+A Tapvane sticker for your shop counter, table or phone. Customers tap to see your business, WhatsApp and socials.
 Button: Get a tag
 
 ### For small businesses
 **Title:** Turn every tap into a customer
-**Body:** Put a TAPLY tag on your counter, reception desk or restaurant table. Customers tap with their phone to chat with you on WhatsApp, follow you on Instagram, or save your number. Give your staff matching TAPLY cards so every team member represents your brand.
+**Body:** Put a Tapvane tag on your counter, reception desk or restaurant table. Customers tap with their phone to chat with you on WhatsApp, follow you on Instagram, or save your number. Give your staff matching Tapvane cards so every team member represents your brand.
 **Button:** See business packages
 
 ### Live profile demo
 **Title:** See what people see when you tap
-**Body:** Open a sample TAPLY profile on your phone. This is exactly what your contacts will get.
+**Body:** Open a sample Tapvane profile on your phone. This is exactly what your contacts will get.
 **Button:** Open sample profile
 
 ### FAQ preview
@@ -71,19 +71,19 @@ Show the first 4 questions from the FAQ page, then a link: **See all questions �
 
 ### Final call to action
 **Title:** Ready to make a lasting first impression?
-**Body:** Order your TAPLY card today. Pickup in Makurdi or delivery anywhere in Nigeria.
-**Button:** Get your TAPLY card
+**Body:** Order your Tapvane card today. Pickup in Makurdi or delivery anywhere in Nigeria.
+**Button:** Get your Tapvane card
 
 ### WhatsApp floating button (every page)
 **Tooltip/label:** Chat with us
-**Pre-filled message:** Hi TAPLY, I'd like to know more about your NFC cards.
+**Pre-filled message:** Hi Tapvane, I'd like to know more about your NFC cards.
 
 ---
 
 ## 2. How it works (`/how-it-works`)
 
-**Title:** How TAPLY works
-**Intro:** Every TAPLY card has a tiny NFC chip inside, the same technology used for contactless payments. When someone holds their phone near your card, the chip tells their phone to open your TAPLY profile. No app, no battery, no pairing.
+**Title:** How Tapvane works
+**Intro:** Every Tapvane card has a tiny NFC chip inside, the same technology used for contactless payments. When someone holds their phone near your card, the chip tells their phone to open your Tapvane profile. No app, no battery, no pairing.
 
 **Step 1: Order and design your card.** Choose a package, pick a template and colour, and add your name and job title. You'll see a live preview before you pay.
 
@@ -95,14 +95,14 @@ Show the first 4 questions from the FAQ page, then a link: **See all questions �
 
 **Tip box:** On iPhones, tap near the top of the phone. On Android, make sure NFC is turned on in Settings (it's on by default on most phones).
 
-**Button:** Get your TAPLY card
+**Button:** Get your Tapvane card
 
 ---
 
 ## 3. Packages page (`/packages`)
 
 **Title:** Packages
-**Intro:** Every package includes a TAPLY digital profile you can edit anytime, free updates, and a "Save Contact" button.
+**Intro:** Every package includes a Tapvane digital profile you can edit anytime, free updates, and a "Save Contact" button.
 
 Use the package cards from the Home page with these extra details:
 
@@ -122,14 +122,14 @@ Use the package cards from the Home page with these extra details:
 
 **Title:** Frequently asked questions
 
-**What is a TAPLY card?**
+**What is a Tapvane card?**
 A business card with a small NFC chip inside. When someone taps it with their phone, your digital profile opens, with your contacts, WhatsApp, socials and more.
 
 **Does the other person need an app?**
-No. TAPLY works with the phone's built-in NFC. The profile opens in their web browser.
+No. Tapvane works with the phone's built-in NFC. The profile opens in their web browser.
 
 **Which phones does it work with?**
-Most modern smartphones. iPhone XS and newer read TAPLY cards automatically. Most Android phones with NFC work too; just make sure NFC is switched on in Settings. If someone's phone doesn't support NFC, you can share your profile link with them on WhatsApp instead.
+Most modern smartphones. iPhone XS and newer read Tapvane cards automatically. Most Android phones with NFC work too; just make sure NFC is switched on in Settings. If someone's phone doesn't support NFC, you can share your profile link with them on WhatsApp instead.
 
 **Where do I tap?**
 On iPhones, hold the card near the top of the phone. On most Android phones, hold it against the middle of the back, near the camera.
@@ -144,7 +144,7 @@ Just log in and update your profile. Your card stays the same and instantly show
 Message us on WhatsApp. We'll switch off the lost card so nobody else can use it, and link a new card to your profile. There's no replacement fee.
 
 **Can I design my own card?**
-Yes. Choose from TAPLY templates, pick your colour and finish, and add your name, job title and company. You'll see a live preview before you order.
+Yes. Choose from Tapvane templates, pick your colour and finish, and add your name, job title and company. You'll see a live preview before you order.
 
 **What's the difference between Basic and Pro?**
 Basic gets a PVC card and a standard profile. Pro gets a premium matte-finish card and a custom profile with your own accent colour and cover image.
@@ -231,60 +231,60 @@ Chat with us on WhatsApp. We usually reply within 24 hours.
 **Order status labels:** Awaiting payment · Awaiting confirmation · Paid · In production · Ready for pickup · Shipped · Delivered · Cancelled
 **Profile editor save button:** Save changes
 **Saved message:** Your profile is updated. Your card already shows the new details.
-**Username helper:** This is your profile link: [domain]/p/your-name. Use lowercase letters, numbers and hyphens.
+**Username helper:** This is your profile link: tapvane.com/p/your-name. Use lowercase letters, numbers and hyphens.
 
 ---
 
 ## 9. Special pages
 
 **Unassigned card (`/c/[code]` with no profile)**
-Title: Activate your TAPLY card
+Title: Activate your Tapvane card
 Body: This card isn't linked to a profile yet. Log in or create an account to set it up.
 Buttons: Log in · Create account
 
 **Profile switched off**
 Title: Profile unavailable
-Body: This TAPLY profile isn't active right now.
-Link: Get your own TAPLY card
+Body: This Tapvane profile isn't active right now.
+Link: Get your own Tapvane card
 
 **404 page**
 Title: Page not found
 Body: The page you're looking for doesn't exist or has moved.
 Button: Back to home
 
-**Profile footer link:** Get your own TAPLY card
+**Profile footer link:** Get your own Tapvane card
 
 ---
 
 ## 10. Automatic emails
 
 **Welcome / verify email**
-Subject: Welcome to TAPLY. Please confirm your email
-Body: Hi [first name], welcome to TAPLY! Please confirm your email address to finish setting up your account. [Confirm email button]
+Subject: Welcome to Tapvane. Please confirm your email
+Body: Hi [first name], welcome to Tapvane! Please confirm your email address to finish setting up your account. [Confirm email button]
 
 **Order confirmation**
-Subject: Your TAPLY order [#order] is confirmed
+Subject: Your Tapvane order [#order] is confirmed
 Body: Hi [first name], thanks for your order! Package: [package] · Total: ₦[total] · Delivery: [option]. We'll email you as your order moves through production. In the meantime, set up your profile: [Dashboard link]
 
 **Payment confirmed (bank transfer)**
 Subject: Payment received for order [#order]
-Body: Hi [first name], we've received your payment. Your TAPLY card is now in production.
+Body: Hi [first name], we've received your payment. Your Tapvane card is now in production.
 
 **Status update**
-Subject: Your TAPLY order is [status]
+Subject: Your Tapvane order is [status]
 Body: Hi [first name], your order [#order] is now **[status]**. [If Ready for pickup: "Pick it up at [address], [hours]." If Shipped: "It's on its way to [city]."]
 
 **Password reset**
-Subject: Reset your TAPLY password
+Subject: Reset your Tapvane password
 Body: We received a request to reset your password. Click the button below to choose a new one. If you didn't ask for this, you can ignore this email. [Reset password button]
 
 ---
 
 ## 11. Footer (every page)
 
-**Tagline:** TAPLY · Tap. Share. Connect.
+**Tagline:** Tapvane · Tap. Share. Connect.
 **Links:** Packages · How it works · FAQ · Contact · Terms · Privacy
-**Line:** Made in Makurdi, Benue State, Nigeria. © [year] TAPLY. All rights reserved.
+**Line:** Made in Makurdi, Benue State, Nigeria. © [year] Tapvane. All rights reserved.
 
 ---
 
@@ -294,8 +294,8 @@ Body: We received a request to reset your password. Click the button below to ch
 
 **Last updated:** [date]
 
-1. **About us.** TAPLY ("we", "us") is [registered business name, RC/BN number], based in Makurdi, Benue State, Nigeria. These terms apply when you use our website, buy our products, or use a TAPLY digital profile.
-2. **Products.** We sell NFC business cards and tags linked to a TAPLY digital profile. Card designs are made from your choices in the customiser; small colour differences between screen and print may occur.
+1. **About us.** Tapvane ("we", "us") is [registered business name, RC/BN number], based in Makurdi, Benue State, Nigeria. These terms apply when you use our website, buy our products, or use a Tapvane digital profile.
+2. **Products.** We sell NFC business cards and tags linked to a Tapvane digital profile. Card designs are made from your choices in the customiser; small colour differences between screen and print may occur.
 3. **Accounts.** You must give accurate information and keep your password safe. You are responsible for all activity on your account.
 4. **Your profile content.** You own the content you add to your profile. You must not add content that is illegal, misleading, offensive, or that infringes someone else's rights. We may disable profiles that break these rules.
 5. **Orders and payment.** Prices are in Naira and shown at checkout. Orders begin production only after payment is confirmed. Online payments are processed by Paystack.
@@ -315,14 +315,14 @@ Body: We received a request to reset your password. Click the button below to ch
 
 **Last updated:** [date]
 
-1. **Who we are.** TAPLY ([registered business name]), Makurdi, Benue State, Nigeria, is responsible for the personal data described here. Contact: nfc.taply.hub@gmail.com or WhatsApp +234 902 591 8252.
+1. **Who we are.** Tapvane ([registered business name]), Makurdi, Benue State, Nigeria, is responsible for the personal data described here. Contact: nfc.taply.hub@gmail.com or WhatsApp +234 902 591 8252.
 2. **What we collect.**
    - **Account data:** name, email address, password (stored securely, never in plain text).
    - **Order data:** phone number, delivery address, order details, payment status and receipts you upload. Card payments are handled by Paystack; we don't store your card details.
    - **Profile data:** whatever you choose to add: photo, job title, phone, WhatsApp, email, socials, location, bio.
 3. **Public profile.** Information you add to your profile is **public** to anyone who taps your card or opens your profile link. Only add what you're happy to share.
 4. **How we use your data.** To process and deliver orders, run your account and profile, send order and account emails, provide support, and improve our service. We don't sell your data.
-5. **Who we share it with.** Only service providers we need to run TAPLY: payment processing (Paystack), hosting and database (e.g. Vercel, Supabase), email delivery, and delivery partners (name, phone and address only). They may process data outside Nigeria with appropriate safeguards.
+5. **Who we share it with.** Only service providers we need to run Tapvane: payment processing (Paystack), hosting and database (e.g. Vercel, Supabase), email delivery, and delivery partners (name, phone and address only). They may process data outside Nigeria with appropriate safeguards.
 6. **How long we keep it.** Account and profile data: while your account is active. Order records: as required for accounting and legal purposes, [e.g. 6 years].
 7. **Your rights.** You can access, correct, download or delete your data, and withdraw consent at any time. Edit your profile from your dashboard, or contact nfc.taply.hub@gmail.com to delete your account.
 8. **Security.** We use secure login, encrypted connections (HTTPS), and access controls to protect your data.

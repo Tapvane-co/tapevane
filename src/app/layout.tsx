@@ -13,7 +13,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "TAPLY | Tap. Share. Connect.",
+  title: "Tapvane | Tap. Share. Connect.",
   description:
     "NFC business cards and tags that open your digital profile with one tap.",
 };

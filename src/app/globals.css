@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-/* TAPLY brand colours (Noir & Gold). Use as bg-onyx, text-gold, border-line, etc. */
+/* TAPVANE brand colours (Noir & Gold). Use as bg-onyx, text-gold, border-line, etc. */
 @theme inline {
   --color-onyx: #0b0b0c;
   --color-charcoal: #1c1b19;

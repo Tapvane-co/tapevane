@@ -1,6 +1,6 @@
-# TAPLY — notes for Claude Code
+# Tapvane — notes for Claude Code
 
-TAPLY sells NFC business cards/tags that open a digital profile. The site is both the shop and the profile platform. Full details: `PRD.md` (requirements) and `CONTENT.md` (exact website text).
+Tapvane sells NFC business cards/tags that open a digital profile. The site is both the shop and the profile platform. Full details: `PRD.md` (requirements) and `CONTENT.md` (exact website text).
 
 ## Working with the founder
 - Founder is a complete beginner. Explain in simple words, decide technical details sensibly.
@@ -12,7 +12,7 @@ TAPLY sells NFC business cards/tags that open a digital profile. The site is bot
 ## Brand (Noir & Gold) — Tailwind names in `src/app/globals.css`
 Onyx `#0B0B0C` (background) · Charcoal `#1C1B19` (panels) · Gold `#C9A34E` (accent) · Ivory `#EDE6D6` (text) · Stone `#8C857A` · Muted `#A79F92` · Border/line `#3A342A` (subtle `#2A2722`).
 Fonts: Bodoni Moda (headings, names, wordmark → `font-display`), Manrope (body → `font-sans`).
-Logo: "TAPLY" Bodoni Moda, Gold, caps, ~0.3em spacing; tagline "TAP · SHARE · CONNECT". Keep it in `src/components/Logo.tsx`.
+Logo: "TAPVANE" Bodoni Moda, Gold, caps, ~0.3em spacing; tagline "TAP · SHARE · CONNECT". Keep it in `src/components/Logo.tsx`.
 Primary button: Gold bg + Onyx text. Secondary: outlined, Ivory text. Min tap size 44px. Mobile-first.
 
 ## Prices (₦) — store in DB, editable by admin, never hard-code
@@ -20,7 +20,7 @@ Basic 18,000 · Pro 30,000 (matte, custom profile) · Business 5 = 80,000 · Bus
 Delivery: pickup free (Opp. Holy Ghost Catholic Church, Wadata, Makurdi) · within Makurdi 1,500 · outside 5,000. Ready 5–7 business days after payment confirmed.
 
 ## Key rules
-- Chip stores `https://[DOMAIN]/c/[card-code]`, never the profile URL. `/c/` redirects to the assigned profile; admin can reassign.
+- Chip stores `https://tapvane.com/c/[card-code]`, never the profile URL. `/c/` redirects to the assigned profile; admin can reassign.
 - Profile page `/p/[username]`: "Cover & icons" layout (PRD 7.5). Must be fast and work without login.
 - WhatsApp (+234 902 591 8252) and email (nfc.taply.hub@gmail.com) come from admin Settings, never typed into page code. Bank details likewise (entered by founder in admin, never in code).
 - Paystack payments are verified server-side via webhook only.

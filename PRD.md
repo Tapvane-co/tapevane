@@ -81,6 +81,7 @@ Fees editable by admin. Customer chooses at checkout and enters a delivery addre
 - `/` Home
 - `/packages` Packages & pricing
 - `/customise` Card customiser (step 1 of ordering)
+- `/cart` Cart (also available as a side panel from the menu icon)
 - `/checkout` Checkout
 - `/how-it-works` How NFC works (simple explainer + video/GIF of a tap)
 - `/faq` FAQ
@@ -103,6 +104,8 @@ Fees editable by admin. Customer chooses at checkout and enters a delivery addre
 
 ### 7.1 Home page
 - Hero: headline (suggested "Tap. Share. Connect."), short subline, card mockup visual, "Get your card" button.
+- **Demo animation:** a looping phone mockup (built in code, no video file needed) showing: card tapped → profile opens → Save Contact → "Contact saved". Light on mobile data; respects "reduce motion". Also reused on `/how-it-works`. A real video can replace it later.
+- **Top menu:** Home, Packages, How it works, FAQ, Contact, a **cart icon** (with item count), Log in, and a gold "Get your card" button.
 - How it works: Buy → Customise → Tap.
 - Package cards with prices (Pro marked "Most Popular").
 - Section for small businesses (tags on counters, team cards).
@@ -118,8 +121,10 @@ Fees editable by admin. Customer chooses at checkout and enters a delivery addre
 - For Business packages: enter details for each card (5 or 10), or "add details later" from the dashboard.
 - Customisation is saved with the order so the founder can print exactly what was designed.
 
-### 7.3 Checkout & payment
-1. Review order and preview.
+### 7.3 Cart, checkout & payment
+**Cart:** a cart icon in the top menu opens a side panel listing items (each with its card preview and customisation), quantity controls (tags and extra cards), remove buttons, subtotal and a "Checkout" button. The customiser's "Add to cart" button adds an item; one cart can hold several items (e.g. 1 Pro card + 3 tags) and is paid in one order. Cart is kept in the browser until checkout, and items can't be added if out of stock. Prices always come from the database.
+
+1. Review cart and previews.
 2. Create account or log in (email + password).
 3. Choose delivery option and enter address/phone.
 4. Choose payment:
@@ -268,9 +273,9 @@ Build and test each stage before moving on. Show the founder how to view the sit
 3. **Card links** (`/c/[card-code]` redirect + unassigned page).
 4. **Auth + customer dashboard** (signup/login, edit profile).
 5. **Admin basics:** create/edit profiles, generate and assign cards.
-6. **Home, packages, how-it-works, FAQ, contact pages.**
-7. **Customiser with live preview.**
-8. **Checkout:** delivery options, Paystack + manual transfer, order statuses, emails.
+6. **Home (with demo animation and menu with cart icon), packages, how-it-works, FAQ, contact pages.**
+7. **Customiser with live preview** and **Add to cart** (cart panel and cart icon in the menu).
+8. **Checkout:** cart review, delivery options, Paystack + manual transfer, order statuses, emails.
 9. **Admin orders, products/stock, templates, settings.**
 10. **Polish:** mobile testing, speed, SEO, privacy/terms pages.
 11. **Launch:** deploy to Vercel, connect tapvane.com (DNS is managed in Namecheap), switch Paystack to live keys, test a real order end to end, write and tap-test real cards.
